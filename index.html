@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="background.event.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+    <div class="pop-message">
+        <div class="pop-message-block">
+
+            <img src="assets/images/cross.svg" alt="cross" class="close-cross">
+
+            <div class="pop-title">
+                SUCCESS!
+            </div>
+
+            <p class="pop-subtitle">
+                You have successfully subscribed to the email newsletter
+            </p>
+
+            <div class="pop-close-button">
+                Close
+            </div>
+
+        </div>
+    </div>
+
+    <div class="grid-page">
+
+        <header class="header" id="header">
+
+            <div class="header_background-shape">
+                <img src="assets/images/leftVectorShape.svg" class="background-shape__item-left">
+                <img src="assets/images/rightVectorShape.svg" class="background-shape__item-right">
+            </div>
+    
+            <div class="conteiner grid-align">
+    
+                <div class="wrapp">
+    
+                    <a href="index.html" class="logo-link">
+                        <img src="assets/images/logo.svg" alt="logo" class="logo" id="logo">
+                    </a>
+    
+                    <div class="header-titles">
+                        <h1 class="header-title">
+                            Under Construction
+                        </h1>
+                        <h4 class="header-subtitle">
+                            We're making lots of improvements and will be back soon
+                        </h4>
+                    </div>
+    
+                    <div class="header-timer">
+                        <div class="timer-block">
+                            <p class="number-block" id="number-days">92</p>
+                            <div class="data-text-block">Days</div>
+                        
+                        </div>
+    
+                        <span>:</span>
+    
+                        <div class="timer-block">
+                            <p class="number-block" id="number-hours">11</p>
+                            <div class="data-text-block">Hours</div>
+                            
+                        </div>
+    
+                        <span>:</span>
+    
+                        <div class="timer-block">
+                            <p class="number-block" id="number-minutes">41</p>
+                            <div class="data-text-block">Minutes</div>
+                            
+                        </div>
+    
+                        <span>:</span>
+    
+                        <div class="timer-block">
+                            <p class="number-block" id="number-seconds">48</p>
+                            <div class="data-text-block">Seconds</div>
+                            
+                        </div>
+                    </div>
+    
+    
+                    <div class="header-link-block">
+                        <p class="link-block-text">Check our event page when you wait:</p>
+                        <a href="event.html" class="link-button">
+                                <p class="link-button-inner-text">Go to the event</p>
+                                <img src="assets/images/arrow.svg" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </header>
+    
+        <footer class="footer" id="footer">
+    
+            <div class="conteiner">
+    
+                <div class="wrapp">
+                    <form class="footer-input-block" action="" method="POST" id="email_form">
+    
+                        <input type="text" class="footer-input" placeholder="Enter your Email and get notified">
+                        <button type="submit" class="footer-button" disabled><img src="assets/images/arrow.svg" alt=""></button>
+
+                    </form>
+                    
+                </div>
+                
+            </div>
+            <a href="#all-events" class="footer-ancor">Other Events <img src="assets/images/arrow.svg" alt=""></a>
+    
+        </footer>
+
+
+    </div>
+
+    <section class="all-events" id="all-events">
+
+
+        <div class="conteiner">
+            <div class="wrapp">
+
+                <h1 class="all-events_title title">All events</h1>
+
+            <div class="accordian">
+                <ul class="accordian-list">
+
+
+                    <li class="list-item active" id="event-background1">
+
+                        <div class="sidebar">
+                            <div class="bg"></div>
+                            <p class="event-name">Hawaian</p>
+                            <p class="event-number">01</p>
+                            
+                        </div>
+                        
+                        <div class="info-block">
+
+                            <p class="bgNumber">01</p>
+                            <div class="middlebar">
+                                <p class="event-info-name">Hawaiian party</p>
+                                <p class="event-info-data">13.02.2023</p>
+                                <a href="" class="event-info-button">More information</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </li>
+
+                    <li class="list-item deactive" id="event-background2">
+
+                        <div class="sidebar">
+                            <div class="bg"></div>
+                            <p class="event-name">Mafia party</p>
+                            <p class="event-number">02</p>
+                            
+                        </div>
+                        
+                        <div class="info-block">
+                            <p class="bgNumber">02</p>
+                            <div class="middlebar">
+                                <p class="event-info-name">Mafia party</p>
+                                <p class="event-info-data">13.02.2023</p>
+                                <a href="" class="event-info-button">More information</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </li>
+
+                    <li class="list-item deactive" id="event-background3">
+
+                        <div class="sidebar">
+                            <div class="bg"></div>
+                            <p class="event-name">Party</p>
+                            <p class="event-number">03</p>
+                            
+                        </div>
+                        
+                        <div class="info-block">
+                            <p class="bgNumber">03</p>
+                            <div class="middlebar">
+                                <p class="event-info-name">Party</p>
+                                <p class="event-info-data">13.02.2023</p>
+                                <a href="" class="event-info-button">More information</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </li>
+
+                    <li class="list-item deactive" id="event-background4">
+
+                        <div class="sidebar">
+                            <div class="bg"></div>
+                            <p class="event-name">Party on d beach</p>
+                            <p class="event-number">04</p>
+                            
+                        </div>
+                        
+                        <div class="info-block">
+                            <p class="bgNumber">04</p>
+                            <div class="middlebar">
+                                <p class="event-info-name">Party on d beach</p>
+                                <p class="event-info-data">13.02.2023</p>
+                                <a href="" class="event-info-button">More information</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li class="list-item deactive" id="event-background5">
+
+                        <div class="sidebar">
+                            <div class="bg"></div>
+                            <p class="event-name">Home Security</p>
+                            <p class="event-number">05</p>
+                            
+                        </div>
+                        
+                        <div class="info-block">
+                            <p class="bgNumber">05</p>
+                            <div class="middlebar">
+                                <p class="event-info-name">Home Security</p>
+                                <p class="event-info-data">13.02.2023</p>
+                                <a href="" class="event-info-button">More information</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </li>
+
+                    <li class="list-item deactive" id="event-background6">
+
+                        <div class="sidebar">
+                            <div class="bg"></div>
+                            <p class="event-name">Network Design & Implementation</p>
+                            <p class="event-number">06</p>
+                            
+                        </div>
+                        
+                        <div class="info-block">
+                            <p class="bgNumber">06</p>
+                            <div class="middlebar">
+                                <p class="event-info-name">Network Design & Implementation</p>
+                                <p class="event-info-data">13.02.2023</p>
+                                <a href="" class="event-info-button">More information</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </li>
+
+                    <li class="list-item deactive" id="event-background7">
+
+                        <div class="sidebar">
+                            <div class="bg"></div>
+                            <p class="event-name">System Design & Engineering</p>
+                            <p class="event-number">07</p>
+                            
+                        </div>
+                        
+                        <div class="info-block">
+                            <p class="bgNumber">07</p>
+                            <div class="middlebar">
+                                <p class="event-info-name">System Design & Engineering</p>
+                                <p class="event-info-data">13.02.2023</p>
+                                <a href="" class="event-info-button">More information</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </li>
+
+                    <li class="list-item deactive" id="event-background8">
+
+                        <div class="sidebar">
+                            <div class="bg"></div>
+                            <p class="event-name">Client Care Plans</p>
+                            <p class="event-number">08</p>
+                            
+                        </div>
+                        
+                        <div class="info-block">
+                            <p class="bgNumber">08</p>
+                            <div class="middlebar">
+                                <p class="event-info-name">Client Care Plans</p>
+                                <p class="event-info-data">13.02.2023</p>
+                                <a href="" class="event-info-button">More information</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </li>
+
+                    
+
+                </ul>
+            </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+</body>
+
+</html>
