@@ -1,6 +1,6 @@
 $(document).ready(function () {
     
-    const DATE_DAY = 12;
+    const DATE_DAY = 24;
     const DATE_MONTH = 7;
     const DATE_YEAR = 2024;
 
