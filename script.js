@@ -39,22 +39,28 @@ $(document).ready(function () {
 //---------------------------ЛИСТНЕРЫ :D--------------------------------
 
 
+
+
     $('.list-item').click(function (e) { 
         e.preventDefault();
+
+        
         
         if(!$(this).hasClass('active')){
+
+
+
             anotherItem = $('.list-item').filter('.active');
             anotherItemContent = anotherItem.find('.info-block');
-            anotherItemContent.animate({
-                'width' : '0'
-            });    
+            anotherItemContent.addClass('wrem').removeClass('wadd'); 
             anotherItem.addClass('deactive').removeClass('active');
             $(this).addClass('active').removeClass('deactive');
-            $(this).find('.info-block').animate({
+            $(this).find('.info-block').addClass('wadd').removeClass('wrem'); 
+            // animate({
 
-                'width' : '995px'
+            //     'width' : '995px'
 
-            });
+            // });
         }
     });
 

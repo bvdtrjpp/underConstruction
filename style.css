@@ -118,6 +118,17 @@ ul{
 
 }
 
+.wrem{
+
+    width: 0;
+
+}
+
+.wadd{
+    width: 995px;
+}
+
+
 .header{
 
     height: calc(inherit - 10vh);
@@ -209,7 +220,7 @@ ul{
 
 .header-subtitle{
 
-    width: 423px;
+
     line-height: 150%;
 
     font-size: 18px;
@@ -420,12 +431,16 @@ ul{
 
 
 .all-events{
-    height: 100vh;
+
     text-align: center;
-    
+    margin: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+                                                
 
 }
 
@@ -477,6 +492,27 @@ ul{
 
 }
 
+.bottombar{
+
+    height: 64px;
+    width: 100%;
+    background-color: #162C4E;
+    color: white;
+    position: relative;
+    cursor: pointer;
+
+    display: none;
+    justify-content: flex-start;
+    
+    align-items: center;
+    
+
+}
+
+.b-event-number{
+    margin: 14px;
+}
+
 .event-name{
     transform: rotate(-90deg);
     transform-origin: center;
@@ -490,7 +526,6 @@ ul{
 
 .event-number{
 
-    
     font-size:40px;
 
 }
@@ -501,8 +536,8 @@ ul{
     float: left;
     position: relative;
     
-    width: 0;
     height: 100%;
+
     overflow: hidden;
     color: white;
 }
@@ -520,7 +555,7 @@ ul{
 
 .active:first-child .info-block{
 
-    width: 995px;
+    width: 0;
 
 }
 
@@ -532,7 +567,8 @@ ul{
 
 
 
-.deactive .sidebar{
+.deactive .sidebar,
+.deactive .bottombar{
     z-index: 1;
     background-color:rgba(0, 0, 0, 0.5);
 
@@ -547,7 +583,7 @@ ul{
     background: linear-gradient(0deg, rgba(22,44,78,1) 0%, rgba(22,44,78,0) 150%);
     z-index: -1;
     position: absolute;
-    transition: 2s;
+
 }
 
 .active .bg{
@@ -592,3 +628,23 @@ ul{
 }
 
 
+
+
+
+
+.deactive .bottombar .bg{
+    
+    width:  100%;
+    height: 100%;
+
+    background: rgb(22,44,78);
+    background: linear-gradient(90deg, rgba(22,44,78,1) 0%, rgba(22,44,78,0) 100%);    z-index: -1;
+    position: absolute;
+
+}
+
+.active .bottombar .bg{
+
+    display: none;
+
+}

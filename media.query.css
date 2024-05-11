@@ -1,0 +1,1162 @@
+@media screen and (max-width: 1740px) {
+
+    .conteiner{
+
+        width: 1440px;
+
+    }
+    .sidebar{
+
+        display: flex;
+        width: 65px;
+
+    }
+    .bgNumber{
+        font-size: 300px;
+    }
+
+
+
+    .list-item{
+
+
+        height: 100%;
+        width: auto;
+
+    }
+
+    .bottombar{
+
+        display: none;
+
+    }
+
+    .info-block{
+
+        display: block;
+        width: 600px;
+
+    }
+
+
+
+    .middlebar{
+        width: 300px;
+
+    }
+
+    .event-info-button{
+
+        padding: 10px 20px;
+
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    body,
+    .header-subtitle,
+    .event-info-name,
+    .event-info-button
+    {
+
+        font-size: 20px;
+
+    }
+
+
+    .conteiner{
+
+        width: 1024px;
+
+    }
+
+    .background-shape__item-left{
+        top: -20px;
+        width: 375px;
+        height: 340px;
+    }
+
+    .background-shape__item-right{
+        top: -10px;
+
+        width: 375px;
+        height: 355px;
+    }
+
+    .grid-align{
+
+        width: 700px;
+        
+    }
+
+    .logo{
+        width: 190px;
+        height: 60.14px;
+    }
+    
+    .header-title,
+    .all-events_title,
+    .number-block,
+    .header-timer span{
+        font-size: 56px;
+    }
+
+    .header-title{
+
+        white-space: nowrap;
+
+    }
+
+
+
+    .data-text-block{
+        width: 132px;
+        height: 55px;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        font-size: 18px;
+    }
+
+
+
+
+    .footer{
+
+        height: 152px;
+
+    }
+
+    .footer-input-block{
+
+        width: 440px;
+        height: 59px;
+
+    }
+    .footer-button{
+        width: 43px;
+        height: 40px;
+    }
+
+    .footer-input::placeholder,
+    .footer-input,
+    .event-info-data{
+
+        font-size: 16px;
+
+    }
+
+    .footer-ancor{
+
+
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .error-message::before{
+        font-size: 16px;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: -30px;
+    }
+
+    .accordian{
+        width: 100%;
+    }
+
+    .accordian-list{
+
+        height: 600px;
+
+    }
+
+    .sidebar{
+
+        display: flex;
+        width: 60px;
+
+    }
+
+
+    .bgNumber{
+        font-size: 300px;
+        top: 0;
+        left: -100px;
+
+    }
+
+
+
+    .list-item{
+
+
+        height: 100%;
+        width: auto;
+
+    }
+
+    .wadd{
+
+        width: 800px;
+        height: 100%;
+    }
+
+    .wrem{
+
+        width: 0;
+        height: 100%;
+
+    }
+
+    .bottombar{
+
+        display: none;
+
+    }
+
+    .info-block{
+
+        display: block;
+        width: 500px;
+
+    }
+
+    .list-item{
+        background-repeat: no-repeat;
+    
+
+        background-size: cover;
+        height: 100%;
+        float: left;
+        margin: 0 1px;
+    }
+
+    .middlebar{
+        backdrop-filter: blur(10px);
+        width: 300px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+
+    }
+
+    .event-info-button{
+
+        padding: 10px 30px;
+        border: 3px solid white;
+        border-left: 10px solid white;
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    body,
+    .header-subtitle,
+    .event-info-name,
+    .event-info-button
+    {
+
+        font-size: 16px;
+
+    }
+
+    body{
+        height: auto;
+    }
+
+    .conteiner{
+
+        width: 600px;
+
+    }
+
+    .background-shape__item-left{
+        top: -20px;
+        width: 175px;
+        height: 140px;
+    }
+
+    .background-shape__item-right{
+        top: -10px;
+
+        width: 175px;
+        height: 155px;
+    }
+
+    .grid-align{
+
+        width: 320px;
+        
+    }
+
+    .logo{
+        width: 128px;
+        height: 40px;
+    }
+    
+    .header-title,
+    .all-events_title,
+    .number-block,
+    .header-timer span{
+        font-size: 36px;
+    }
+
+
+
+    .header-timer,
+    .header-titles{
+
+        width: 100%;
+
+    }
+
+    .header-timer{
+
+        gap: 0;
+        justify-content: space-evenly;
+
+    }
+
+    .header-subtitles{
+
+        width: 0;
+
+    }
+
+    .data-text-block{
+        width: 40px;
+        height: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .wrapp{
+        width: 100%;
+        gap: 20px;
+
+    }
+
+
+    .footer{
+
+        height: 141px;
+
+    }
+
+    .footer-input-block{
+
+        width: 280px;
+        height: 41px;
+
+    }
+    .footer-button{
+        width: 33px;
+        height: 30px;
+    }
+
+    .footer-input::placeholder,
+    .footer-input,
+    .event-info-data{
+
+        font-size: 14px;
+
+    }
+
+    .footer-ancor{
+
+        font-size: 16px;
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 50%;
+        
+    }
+
+    .error-message::before{
+        font-size: 14px;
+        left: none;
+        bottom: none;
+        top: -90%;
+    }
+
+    .accordian{
+        width: 100%;
+    }
+
+    .accordian-list{
+
+        height: auto;
+
+    }
+
+    .sidebar{
+
+        display: none;
+
+    }
+
+    .middlebar{
+
+        width: 100%;
+        height: 158px;
+
+    }
+
+    .bgNumber{
+        font-size: 50px;
+        top: auto;
+        left: auto;
+        right: -2px;
+        top: 70%;
+
+    }
+
+
+
+    .list-item{
+
+
+        width: 100%;
+    
+
+    }
+
+    .wadd{
+
+        width: 100%;
+        height: 376px;
+    }
+
+    .wrem{
+
+        width: 100%;
+        height: 0;
+
+    }
+
+    .bottombar{
+
+        display: flex;
+
+    }
+
+    .info-block{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+    }
+
+    .list-item{
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .middlebar{
+
+        width: 100%;
+        height: 158px;
+        
+        align-items: start;
+        padding: 20px;
+
+    }
+
+    .event-info-button{
+
+        padding: 5px 10px;
+        border: 1px solid white;
+        border-left: 4px solid white;
+
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    body,
+    .header-subtitle,
+    .event-info-name,
+    .event-info-button
+    {
+
+        font-size: 16px;
+
+    }
+
+    body{
+        height: auto;
+    }
+
+    .conteiner{
+
+        width: 600px;
+
+    }
+
+    .background-shape__item-left{
+        top: -20px;
+        width: 175px;
+        height: 140px;
+    }
+
+    .background-shape__item-right{
+        top: -10px;
+
+        width: 175px;
+        height: 155px;
+    }
+
+    .grid-align{
+
+        width: 320px;
+        
+    }
+
+    .logo{
+        width: 128px;
+        height: 40px;
+    }
+    
+    .header-title,
+    .all-events_title,
+    .number-block,
+    .header-timer span{
+        font-size: 36px;
+    }
+
+    .header-timer,
+    .header-titles{
+
+        width: 100%;
+
+    }
+
+    .header-title{
+
+        white-space: wrap;
+
+    }
+
+    .header-timer{
+
+        gap: 0;
+        justify-content: space-evenly;
+
+    }
+
+    .header-subtitles{
+
+        width: 0;
+
+    }
+
+    .data-text-block{
+        width: 40px;
+        height: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .wrapp{
+        width: 100%;
+        gap: 20px;
+
+    }
+
+
+    .footer{
+
+        height: 141px;
+
+    }
+
+    .footer-input-block{
+
+        width: 280px;
+        height: 41px;
+
+    }
+    .footer-button{
+        width: 33px;
+        height: 30px;
+    }
+
+    .footer-input::placeholder,
+    .footer-input,
+    .event-info-data{
+
+        font-size: 14px;
+
+    }
+
+    .footer-ancor{
+
+        font-size: 16px;
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 50%;
+        
+    }
+
+    .error-message::before{
+        font-size: 14px;
+        left: none;
+        bottom: none;
+        top: -90%;
+    }
+
+    .accordian{
+        width: 100%;
+    }
+
+    .accordian-list{
+
+        height: auto;
+
+    }
+
+    .sidebar{
+
+        display: none;
+
+    }
+
+    .middlebar{
+
+        width: 100%;
+        height: 158px;
+
+    }
+
+    .bgNumber{
+        font-size: 50px;
+        top: auto;
+        left: auto;
+        right: -2px;
+        top: 70%;
+
+    }
+
+
+
+    .list-item{
+
+
+        width: 100%;
+    
+
+    }
+
+    .wadd{
+
+        width: 100%;
+        height: 376px;
+    }
+
+    .wrem{
+
+        width: 100%;
+        height: 0;
+
+    }
+
+    .bottombar{
+
+        display: flex;
+
+    }
+
+    .info-block{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+    }
+
+    .list-item{
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .middlebar{
+
+        width: 100%;
+        height: 158px;
+        
+        align-items: start;
+        padding: 20px;
+
+    }
+
+    .event-info-button{
+
+        padding: 5px 10px;
+        border: 1px solid white;
+        border-left: 4px solid white;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    body,
+    .header-subtitle,
+    .event-info-name,
+    .event-info-button
+    {
+
+        font-size: 16px;
+
+    }
+
+    body{
+        height: auto;
+    }
+
+    .conteiner{
+
+        width: 400px;
+
+    }
+
+    .background-shape__item-left{
+        top: -20px;
+        width: 175px;
+        height: 140px;
+    }
+
+    .background-shape__item-right{
+        top: -10px;
+
+        width: 175px;
+        height: 155px;
+    }
+
+    .grid-align{
+
+        width: 320px;
+        
+    }
+
+    .logo{
+        width: 128px;
+        height: 40px;
+    }
+    
+    .header-title,
+    .all-events_title,
+    .number-block,
+    .header-timer span{
+        font-size: 36px;
+    }
+
+    .header-timer,
+    .header-titles{
+
+        width: 100%;
+
+    }
+
+    .header-timer{
+
+        gap: 0;
+        justify-content: space-evenly;
+
+    }
+
+    .header-subtitles{
+
+        width: 0;
+
+    }
+
+    .data-text-block{
+        width: 40px;
+        height: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .wrapp{
+        width: 100%;
+        gap: 20px;
+
+    }
+
+
+    .footer{
+
+        height: 141px;
+
+    }
+
+    .footer-input-block{
+
+        width: 280px;
+        height: 41px;
+
+    }
+    .footer-button{
+        width: 33px;
+        height: 30px;
+    }
+
+    .footer-input::placeholder,
+    .footer-input,
+    .event-info-data{
+
+        font-size: 14px;
+
+    }
+
+    .footer-ancor{
+
+        font-size: 16px;
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 50%;
+        
+    }
+
+    .error-message::before{
+        font-size: 14px;
+        left: none;
+        bottom: none;
+        top: -90%;
+    }
+
+    .accordian{
+        width: 100%;
+    }
+
+    .accordian-list{
+
+        height: auto;
+
+    }
+
+    .sidebar{
+
+        display: none;
+
+    }
+
+    .middlebar{
+
+        width: 100%;
+        height: 158px;
+
+    }
+
+    .bgNumber{
+        font-size: 50px;
+        top: auto;
+        left: auto;
+        right: -2px;
+        top: 70%;
+
+    }
+
+
+
+    .list-item{
+
+
+        width: 100%;
+    
+
+    }
+
+    .wadd{
+
+        width: 100%;
+        height: 376px;
+    }
+
+    .wrem{
+
+        width: 100%;
+        height: 0;
+
+    }
+
+    .bottombar{
+
+        display: flex;
+
+    }
+
+    .info-block{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+    }
+
+    .list-item{
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .middlebar{
+
+        width: 100%;
+        height: 158px;
+        
+        align-items: start;
+        padding: 20px;
+
+    }
+
+    .event-info-button{
+
+        padding: 5px 10px;
+        border: 1px solid white;
+        border-left: 4px solid white;
+
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    body,
+    .header-subtitle,
+    .event-info-name,
+    .event-info-button
+    {
+
+        font-size: 16px;
+
+    }
+
+    body{
+        height: auto;
+    }
+
+    .conteiner{
+
+        width: 320px;
+
+    }
+
+    .background-shape__item-left{
+        top: -20px;
+        width: 175px;
+        height: 140px;
+    }
+
+    .background-shape__item-right{
+        top: -10px;
+
+        width: 175px;
+        height: 155px;
+    }
+
+    .grid-align{
+
+        width: 320px;
+        
+    }
+
+    .logo{
+        width: 128px;
+        height: 40px;
+    }
+    
+    .header-title,
+    .all-events_title,
+    .number-block,
+    .header-timer span{
+        font-size: 36px;
+    }
+
+    .header-timer,
+    .header-titles{
+
+        width: 100%;
+
+    }
+
+    .header-timer{
+
+        gap: 0;
+        justify-content: space-evenly;
+
+    }
+
+    .header-subtitles{
+
+        width: 0;
+
+    }
+
+    .data-text-block{
+        width: 40px;
+        height: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .wrapp{
+        width: 100%;
+        gap: 20px;
+
+    }
+
+
+    .footer{
+
+        height: 141px;
+
+    }
+
+    .footer-input-block{
+
+        width: 280px;
+        height: 41px;
+
+    }
+    .footer-button{
+        width: 33px;
+        height: 30px;
+    }
+
+    .footer-input::placeholder,
+    .footer-input,
+    .event-info-data{
+
+        font-size: 14px;
+
+    }
+
+    .footer-ancor{
+
+        font-size: 16px;
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 50%;
+        
+    }
+
+    .error-message::before{
+        font-size: 14px;
+        left: none;
+        bottom: none;
+        top: -90%;
+    }
+
+    .accordian{
+        width: 100%;
+    }
+
+    .accordian-list{
+
+        height: auto;
+
+    }
+
+    .sidebar{
+
+        display: none;
+
+    }
+
+    .middlebar{
+
+        width: 100%;
+        height: 158px;
+
+    }
+
+    .bgNumber{
+        font-size: 50px;
+        top: auto;
+        left: auto;
+        right: -2px;
+        top: 70%;
+
+    }
+
+
+
+    .list-item{
+
+
+        width: 100%;
+    
+
+    }
+
+    .wadd{
+
+        width: 100%;
+        height: 376px;
+    }
+
+    .wrem{
+
+        width: 100%;
+        height: 0;
+
+    }
+
+    .bottombar{
+
+        display: flex;
+
+    }
+
+    .info-block{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+    }
+
+    .list-item{
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .middlebar{
+
+        width: 100%;
+        height: 158px;
+        
+        align-items: start;
+
+
+    }
+
+    .event-info-button{
+
+        padding: 5px 10px;
+        border: 1px solid white;
+        border-left: 4px solid white;
+
+    }
+
+}
